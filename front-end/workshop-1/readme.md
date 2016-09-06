@@ -1,4 +1,4 @@
-#Front-end workshop 1
+#Front-end workshop 1 (HTML basics)
 ## Intro
 A client appropriately called "Clint" has requested that you make some changes to his existing HTML web page.
 ## Initial set-up

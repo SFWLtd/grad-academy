@@ -16,7 +16,7 @@ var config = {
 
     devServer: {
         inline: true,
-        port: 5001
+        port: 5002
     }
 }
 
