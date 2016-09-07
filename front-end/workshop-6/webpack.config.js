@@ -6,7 +6,7 @@ var config = {
         path: './',
         filename: 'index.js',
     },
-    
+
     module: {
         loaders: [
             { test: /\.html$/, loader: "raw-loader" },
@@ -15,7 +15,7 @@ var config = {
 
     devServer: {
         inline: true,
-        port: 5005
+        port: 5006
     },
 
     plugins: [
