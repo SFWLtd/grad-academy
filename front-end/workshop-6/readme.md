@@ -12,8 +12,10 @@ npm start
 * Browse to http://localhost:5006
 
 ## Workshop tasks
-To make a website accessible usually just means following a set of best practices when creating the HTML for each page. If the page you are making is externally accessible, then you can just run it straight through an online tool, such as:  
-http://achecker.ca/checker/index.php  
+To make a website accessible usually just means following a set of best practices when creating the HTML for each page. If the page you are making is externally accessible, then you can just run it straight through an online tool, such as:
+
+http://achecker.ca/checker/index.php
+
 However, if your site is a local dev environment, then these checkers won't be able to access it. In these cases we usually just upload the source of a page:
 
 1.  Open the page in a browser
