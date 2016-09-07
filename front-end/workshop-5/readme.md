@@ -16,10 +16,10 @@ Using plain JavaScript to manipulate the HTML and DOM elements is somewhat clunk
 
 1. Look up jQuery's `$('.className')`, `.each()`, and `.toggle()` functions. You should be able to replace the entire contents of the method with a line just 21 characters long
 
-Clint has now decided that he wants the pictures to fade in and out, rather than instantaneously appear and disappear.
+Clint has a few more requirements:
 
-1. Try putting a duration into the jQuery `.toggle()` function
+1. Clint would like the pictures to fade in and out, rather than instantaneously appear and disappear. Try putting a duration into the jQuery `.toggle()` function
 2. We don't want the images to change in height whilst they fade in/out. Try `fadeToggle()`
 3. Click the button multiple times in succession. You'll see that jQuery queues the animations on top of each other. Clint doesn't want this, he'd prefer it to always jump straight to the last animation. (Hint: jQuery's `stop()` function)
-
-Finally Clint has a strange requirement that the toggle animation must wait 100ms before beginning. Try and implement this.
+4. Clint now has a strange requirement that the toggle animation must wait 100ms before starting.
+5. Clint would like the text on the button to read "Hide pictures" when the pictures are visible, and "Show pictures" when the pictures are hidden. The text should only update when the fade animation has completed.
