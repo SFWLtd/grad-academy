@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "open-closed", "open-closed", "{E5E01F63-0A1A-4D3F-A23C-624E1699E5A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "single-responsibility", "single-responsibility", "{25B3104F-637F-4AB9-BDAF-502C6F7F1CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-closed-after", "open-closed\open-closed-after\open-closed-after.csproj", "{CDEDBD0B-5020-440F-98A2-00C998FDFE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-closed-before", "open-closed\open-closed-before\open-closed-before.csproj", "{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "single-responsibility-after", "single-responsibility\single-responsibility-after\single-responsibility-after.csproj", "{69AC8CD7-177C-45AA-B8CF-CA57BBD09264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "single-responsibility-before", "single-responsibility\single-responsibility-before\single-responsibility-before.csproj", "{3676A974-BB8E-44AA-90C2-0A3374BA83BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "interface-segregation", "interface-segregation", "{1B661D0D-42C6-4A17-A668-B5CB88331BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface-segregation-after", "interface-segregation\interface-segregation-after\interface-segregation-after.csproj", "{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interface-segregation-before", "interface-segregation\interface-segregation-before\interface-segregation-before.csproj", "{EE2823D8-2BDA-4C71-8025-809CE19E9806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dependency-inversion", "dependency-inversion", "{B174579F-7282-4D96-BE11-963ED0947441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dependency-inversion-before", "dependency-inversion\dependency-inversion-before\dependency-inversion-before.csproj", "{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dependency-inversion-after", "dependency-inversion\dependency-inversion-after\dependency-inversion-after.csproj", "{7CAE0578-38EB-4882-A80C-997A5E8F1291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEDBD0B-5020-440F-98A2-00C998FDFE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEDBD0B-5020-440F-98A2-00C998FDFE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEDBD0B-5020-440F-98A2-00C998FDFE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEDBD0B-5020-440F-98A2-00C998FDFE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AC8CD7-177C-45AA-B8CF-CA57BBD09264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AC8CD7-177C-45AA-B8CF-CA57BBD09264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AC8CD7-177C-45AA-B8CF-CA57BBD09264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AC8CD7-177C-45AA-B8CF-CA57BBD09264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3676A974-BB8E-44AA-90C2-0A3374BA83BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3676A974-BB8E-44AA-90C2-0A3374BA83BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3676A974-BB8E-44AA-90C2-0A3374BA83BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3676A974-BB8E-44AA-90C2-0A3374BA83BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2823D8-2BDA-4C71-8025-809CE19E9806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2823D8-2BDA-4C71-8025-809CE19E9806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2823D8-2BDA-4C71-8025-809CE19E9806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2823D8-2BDA-4C71-8025-809CE19E9806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAE0578-38EB-4882-A80C-997A5E8F1291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAE0578-38EB-4882-A80C-997A5E8F1291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAE0578-38EB-4882-A80C-997A5E8F1291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAE0578-38EB-4882-A80C-997A5E8F1291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDEDBD0B-5020-440F-98A2-00C998FDFE0D} = {E5E01F63-0A1A-4D3F-A23C-624E1699E5A2}
+		{F25D8FF6-65D1-474E-9754-E82F7FA7AAE7} = {E5E01F63-0A1A-4D3F-A23C-624E1699E5A2}
+		{69AC8CD7-177C-45AA-B8CF-CA57BBD09264} = {25B3104F-637F-4AB9-BDAF-502C6F7F1CD3}
+		{3676A974-BB8E-44AA-90C2-0A3374BA83BF} = {25B3104F-637F-4AB9-BDAF-502C6F7F1CD3}
+		{65AEAAE1-1C34-402A-B5AC-E0D08BE5309A} = {1B661D0D-42C6-4A17-A668-B5CB88331BE3}
+		{EE2823D8-2BDA-4C71-8025-809CE19E9806} = {1B661D0D-42C6-4A17-A668-B5CB88331BE3}
+		{24FB75A6-A8C5-4B50-A04C-ACC46BB54A9A} = {B174579F-7282-4D96-BE11-963ED0947441}
+		{7CAE0578-38EB-4882-A80C-997A5E8F1291} = {B174579F-7282-4D96-BE11-963ED0947441}
+	EndGlobalSection
+EndGlobal
