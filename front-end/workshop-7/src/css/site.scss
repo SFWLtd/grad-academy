@@ -1,7 +1,9 @@
 body {
-    background-color: lightgrey;
+    background: #ccc;
+    background: linear-gradient(to top right, #ccc, #eee);
     margin: 0;
     font-family: sans-serif;
+    height: 100vh;
 }
 
 h1, h2 {
@@ -9,14 +11,14 @@ h1, h2 {
 }
 
 .page-header {
-    width: 100%;
-    background-color: #2c3e50;
+    background: #00a499;
+    background: linear-gradient(to top right, #00a499, #00a9e0);
     color: white;
     padding: 30px;
 }
 
 .second-header {
-    background-color: #7f8c8d;
+    background-color: #ecf0f1;
     color: #222;
     padding: 20px 30px;
     box-shadow: 0 5px 10px #888;
@@ -34,7 +36,7 @@ h1, h2 {
     color: #c0392b;
 }
 
-.image-wrapper {
+.image-wrapper, .button-wrapper {
     text-align: center;
 }
 
@@ -47,22 +49,23 @@ h1, h2 {
 }
 
 .image:hover {
-    border-color: #1abc9c;
+    border-color: #00a499;
 }
 
 .button {
     padding: 20px;
+    margin: 20px;
     font-size: 20px;
     color: white;
-    background-color: #1abc9c;
-    border: 2px solid #16a085;
+    background-color: #00a499;
+    border: 2px solid #222;
+    border: none;
     border-radius: 5px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .button:hover {
-    background-color: #34495e;
-    border-color: #2c3e50;
-    text-decoration: underline;
+    background-color: #007169;
 }
 

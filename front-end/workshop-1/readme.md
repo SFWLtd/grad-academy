@@ -3,6 +3,7 @@
 A client appropriately called "Clint" has requested that you make some changes to his existing HTML web page.
 ## Initial set-up
 * Install node?  
+* Clone grad academy repo from github  
 * Open C:\\[grad-academy-repo]\front-end\workshop-1 in Visual Studio Code  
 * Open a command prompt, and run the following commands:
 ```

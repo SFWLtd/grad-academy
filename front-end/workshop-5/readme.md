@@ -24,10 +24,12 @@ Clint has a few more requirements:
 4. Clint now has a strange requirement that the toggle animation must wait 100ms before starting.
 5. Clint would like the text on the button to read "Hide pictures" when the pictures are visible, and "Show pictures" when the pictures are hidden. The text should only update when the fade animation has completed.
 6. Clint wants the button to look nicer. Time to flex those CSS skills!
-  1. Add some padding to the button
-  2. Make the font in the button bigger
-  3. Make the button have a background color of your choice.
-  4. Make the button change to a different flat background color on hover.
-  5. Have the background color change happen gradually
-  6. Have the text in the button underline on hover
-  7. Make any other changes you want
+  1. Move the button to the center of the screen
+  2. Add a margin around the button
+  3. Add some padding to the button
+  4. Make the font in the button bigger
+  5. Make the button have a background color of your choice
+  6. Make the button change to a different flat background color on hover
+  7. Have the background color change happen gradually
+  8. Have the cursor become a hand (`pointer`) when hovered over
+  9. Make any other changes you want
