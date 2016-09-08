@@ -13,7 +13,7 @@ for this kata.
 
 1. The `AuthenticationService` should use the injected `ILoginProvider` to authenticate
 the given user credentials.
-1. `ILoginProvider` returns -1 if the user is not found; 0 if the credentials are 
+1. The `AuthenticateUser` method on the `ILoginProvider` interface returns -1 if the user is not found; 0 if the credentials are 
 incorrect; otherwise a positive `int` which is the user id.
 1. The `Login` method should return `true` if the login was successful; otherwise 
 `false`.
