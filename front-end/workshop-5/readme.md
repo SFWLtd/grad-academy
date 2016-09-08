@@ -28,8 +28,8 @@ Clint has a few more requirements:
   2. Add a margin around the button
   3. Add some padding to the button
   4. Make the font in the button bigger
-  5. Make the button have a background color of your choice.
-  6. Make the button change to a different flat background color on hover.
+  5. Make the button have a background color of your choice
+  6. Make the button change to a different flat background color on hover
   7. Have the background color change happen gradually
-  8. Have the text in the button underline on hover
+  8. Have the cursor become a hand (`pointer`) when hovered over
   9. Make any other changes you want

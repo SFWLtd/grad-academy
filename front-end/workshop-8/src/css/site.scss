@@ -1,5 +1,15 @@
+$sfw-teal: #00a499;
+$sfw-blue: #00a9e0;
+$light-grey: #ecf0f1;
+$dark-red: #c0392b;
+
+@mixin gradient-background($color1, $color2) {
+    background: $color1;
+    background: linear-gradient(to top right, $color1, $color2);
+}
+
 body {
-    background: linear-gradient(to top right, #ccc, #eee);
+    @include gradient-background(#ccc, #eee);
     margin: 0;
     font-family: sans-serif;
     height: 100vh;
@@ -10,13 +20,13 @@ h1, h2 {
 }
 
 .page-header {
-    background: linear-gradient(to top right, #00a499, #00a9e0);
+    @include gradient-background($sfw-teal, $sfw-blue);
     color: white;
     padding: 30px;
 }
 
 .second-header {
-    background-color: #ecf0f1;
+    background-color: $light-grey;
     color: #222;
     padding: 20px 30px;
     box-shadow: 0 5px 10px #888;
@@ -30,8 +40,10 @@ h1, h2 {
     padding: 0 30px;
 }
 
-.added-by-somebody-else p {
-    color: #c0392b;
+.added-by-somebody-else {
+    p {
+        color: $dark-red;
+    }
 }
 
 .image-wrapper, .button-wrapper {
@@ -44,10 +56,9 @@ h1, h2 {
     border: 2px solid #222;
     border-radius: 5px;
     transition: border-color 0.5s ease;
-}
-
-.image:hover {
-    border-color: #00a499;
+    &:hover {
+        border-color: $sfw-teal;
+    }
 }
 
 .button {
@@ -55,15 +66,13 @@ h1, h2 {
     margin: 20px;
     font-size: 20px;
     color: white;
-    background-color: #00a499;
+    background-color: $sfw-teal;
     border: 2px solid #222;
-    border: none;
     border-radius: 5px;
     transition: all 0.5s ease;
     cursor: pointer;
-}
-
-.button:hover {
-    background-color: #007169;
+    &:hover {
+        background-color: darken($sfw-teal, 10%);
+    }
 }
 
