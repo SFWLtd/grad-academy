@@ -12,7 +12,7 @@ npm start
 * Browse to http://localhost:5006
 
 ## Workshop tasks
-### Accesibility
+### Accessibility
 To make a website accessible usually just means following a set of best practices when creating the HTML for each page. If the page you are making is externally accessible, then you can just run it straight through an online tool, such as:
 
 http://achecker.ca/checker/index.php
