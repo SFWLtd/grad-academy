@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clint's form</title>
+    <link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+</head>
+
+<body>
+    <div class="headers">
+        <h1 class="page-header">Clint's form</h1>
+    </div>
+    <div class="content">
+        <form>
+            First name:<br>
+            <input type="text" name="first-name"><br>
+            Last name:<br>
+            <input type="text" name="last-name"><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Prefer not to disclose<br>
+            Favourite animal:<br>
+            <select name="animals">
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="jellyfish">Jellyfish</option>
+            </select><br>
+            What's your favourite thing about Clint?<br>
+            <textarea name="message" rows="10" cols="30">
+            </textarea><br>
+            <input type="submit" value="Submit" disabled="disabled">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
