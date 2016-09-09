@@ -20,8 +20,8 @@ http://achecker.ca/checker/index.php
 However, if your site is a local dev environment, then these checkers won't be able to access it. In these cases we usually just upload the source of a page:
 
 1. Open the page in a browser
-2. View source
-3. Paste the entire source into the accessibility checker, in the "Paste HTML markup" tab
+1. View source
+1. Paste the entire source into the accessibility checker, in the "Paste HTML markup" tab
 
 You'll see it only throws up 2 errors. Our images must have `alt` attributes! Remedy this by editing `index.html` appropriately. Once the accessibility checker shows 0 "known problems", we are good to go.
 
@@ -31,7 +31,7 @@ The other important thing to consider when making a website is cross-browser sup
 In this case, Clint has noticed that the site doesn't quite look right in IE9. Let's have a look:
 
 1. Open IE, and browse to http://localhost:5006
-2. Press F12, and go to the emulation tab
-3. Change the document mode to IE9
+1. Press F12, and go to the emulation tab
+1. Change the document mode to IE9
 
 What happened to our colors? IE9 has no support for gradients :( Let's fix this by adding some fallback `background` styles above the gradient styles. Take the first color from each gradient as the fallback.
