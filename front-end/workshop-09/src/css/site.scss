@@ -1,0 +1,31 @@
+$sfw-teal: #00a499;
+$sfw-blue: #00a9e0;
+
+@mixin gradient-background($color1, $color2) {
+    background: $color1;
+    background: linear-gradient(to top right, $color1, $color2);
+}
+
+body {
+    @include gradient-background(#ddd, #fff);
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.page-header {
+    @include gradient-background($sfw-teal, $sfw-blue);
+    color: white;
+    padding: 30px;
+    box-shadow: 0 5px 10px #888;
+    border-bottom: 2px solid #222;
+}
+
+.content {
+    padding: 30px;
+}
+
