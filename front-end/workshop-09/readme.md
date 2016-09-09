@@ -81,3 +81,6 @@ Finally, replace the `<input type="submit">` element with a proper HTML5 `<butto
 ```
 <button class="btn btn-primary" type="submit">Submit</button>
 ```
+
+### Responsive!
+Now go back to the page, and play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. More on this in the next workshop..!
