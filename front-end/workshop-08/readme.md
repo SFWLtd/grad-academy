@@ -15,7 +15,8 @@ npm start
 Clint wants an image carousel. Instead of re-inventing the wheel, let's use a third-party JS library to do the hard work for us. You can search and find any third-party JS carousel, but this workshop will use slick (http://kenwheeler.github.io/slick/).
 
 ### Installing the library
-On a more traditional site, you would probably just download the .js library (along with any needed .css files), and reference them directly into your page. You would then be able to use the new JS methods in your custom JS code.  
+On a more traditional site, you would probably just download the .js library (along with any needed .css files), and reference them directly into your page. You would then be able to use the new JS methods in your custom JS code.
+
 As we're using webpack (running on node) for these tutorials, we can use the node package manager (npm) to make life easier. To install slick:
 
 1. Browse to npm (https://www.npmjs.com/)

@@ -35,3 +35,9 @@ In this case, Clint has noticed that the site doesn't quite look right in IE9. L
 1. Change the document mode to IE9
 
 What happened to our colors? IE9 has no support for gradients :( Let's fix this by adding some fallback `background` styles above the gradient styles. Take the first color from each gradient as the fallback.
+
+### Favicon
+Everybody loves a favicon! Clint has provided us with one to add to his page - `./src/img/favicon.ico`. To do this, simply add the following line inside the `<head>` element of the HTML document:
+```
+<link rel="icon" type="image/x-icon" href="./src/img/favicon.ico">
+```
