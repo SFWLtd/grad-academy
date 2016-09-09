@@ -13,19 +13,11 @@ body {
     height: 100vh;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
-.page-header {
+.top-header {
     @include gradient-background($sfw-teal, $sfw-blue);
     color: white;
     padding: 30px;
     box-shadow: 0 5px 10px #888;
     border-bottom: 2px solid #222;
+    margin: 0 0 30px 0;
 }
-
-.content {
-    padding: 30px;
-}
-

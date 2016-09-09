@@ -1,6 +1,6 @@
-#Front-end workshop 10 (?)
+#Front-end workshop 10 (More Bootstrap)
 ## Intro
-?
+More Bootstrap
 ## Initial set-up
 * Open C:\\[grad-academy-repo]\front-end\workshop-10 in Visual Studio Code  
 * Open a command prompt, and run the following commands:
