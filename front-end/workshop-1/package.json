@@ -1,7 +1,11 @@
 {
   "name": "workshop-1",
   "version": "1.0.0",
-  "description": "First front-end workshop in the SFW Grad Academy",
+  "description": "Front-end workshop 1 in the SFW Grad Academy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SFWLtd/grad-academy.git"
+  },
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
