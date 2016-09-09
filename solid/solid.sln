@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "open-closed", "open-closed", "{E5E01F63-0A1A-4D3F-A23C-624E1699E5A2}"
-	ProjectSection(SolutionItems) = preProject
-		Notes.docx = Notes.docx
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "single-responsibility", "single-responsibility", "{25B3104F-637F-4AB9-BDAF-502C6F7F1CD3}"
 EndProject
