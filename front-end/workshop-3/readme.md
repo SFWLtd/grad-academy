@@ -15,11 +15,11 @@ npm start
 Time to do some more advanced CSS. Clint would like:
 
 1. The page header and second header to both have a solid bottom border, colored #222, width 2 pixels. (Hint: use multiple selectors to avoid duplicate code)
-2. The second header to have a box shadow. Try 0 horizontal, 5px vertical, 10px blur, color #888
-3. The images to have a full solid border, colored #222, width 2 pixels
-4. The images to have curved corners, radius 5 pixels
-6. The images to change their border color to #1abc9c when hovered over
-7. The border color to change slowly. (Hint: look at CSS transitions)
-8. The "And this text" paragraph to be colored #c0392b. The "Somebody else added this text" should remain black. Do this without changing the HTML! (Hint: CSS descendant selector)
-9. To change the main header to have a gradient background from bottom left to top right. In SFW style, the bottom left color should be #00a499 and the top right #00a9e0.
-10. Clint loves gradients! He would also like the body background to be a gradient from bottom left to top right. The bottom left color should be #ccc and the top right #eee. (Note you'll also want to make the body's height equal to 100% of the browser window for this to look OK. `100vh` should do it!)
+1. The second header to have a box shadow. Try 0 horizontal, 5px vertical, 10px blur, color #888
+1. The images to have a full solid border, colored #222, width 2 pixels
+1. The images to have curved corners, radius 5 pixels
+1. The images to change their border color to #1abc9c when hovered over
+1. The border color to change slowly. (Hint: look at CSS transitions)
+1. The "And this text" paragraph to be colored #c0392b. The "Somebody else added this text" should remain black. Do this without changing the HTML! (Hint: CSS descendant selector)
+1. To change the main header to have a gradient background from bottom left to top right. In SFW style, the bottom left color should be #00a499 and the top right #00a9e0.
+1. Clint loves gradients! He would also like the body background to be a gradient from bottom left to top right. The bottom left color should be #ccc and the top right #eee. (Note you'll also want to make the body's height equal to 100% of the browser window for this to look OK. `100vh` should do it!)

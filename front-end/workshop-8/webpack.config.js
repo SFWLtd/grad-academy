@@ -11,8 +11,9 @@ var config = {
         loaders: [
             { test: /\.html$/, loader: "raw-loader" },
             { test: /\.css$/, loader: "style-loader!css-loader" },
-            { test: /\.scss$/, loaders: ["style", "css", "sass"]}]
-
+            { test: /\.scss$/, loaders: ["style", "css", "sass"] },
+            { test: /\.(png|woff|woff2|eot|ttf|svg|gif)$/, loader: 'url-loader?limit=100000' }
+        ]
     },
 
     devServer: {
