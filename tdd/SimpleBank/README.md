@@ -23,6 +23,11 @@ from the account.
 1. The debit amount cannot be less than or equal to zero. If so it should `throw` an
 `ArgumentOutOfRangeException`.
 1. The exception should contain the name of the parameter.
+1. The debit amount cannot be greater than the available balance. If so it should
+`throw` a custom exception called `InsufficientFundsException`.
+1. The exception message should say `"Debit amount '{amount}' exceeds the available 
+balance '{balance}'."` (where {amount} and {balance} are replaced with the current 
+values).
 
 ### Transaction
 
