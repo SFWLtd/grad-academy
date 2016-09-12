@@ -21,6 +21,11 @@ On a more traditional site, you would probably just download the Bootstrap compo
 
 As we're using webpack (running on node) for these tutorials, we can use the node package manager (npm) to make life easier. To install Bootstrap:
 
+<<<<<<< Updated upstream
+* Open command prompt
+* Kill the app (ctrl+c)
+* `npm install Bootstrap`
+=======
 1. Go back to command prompt
 1. Kill the app (ctrl+c)
 1. Run `npm install bootstrap --save`
@@ -37,13 +42,12 @@ Now that we're using Bootstrap on our page, the form elements will have immediat
 Now it's time to make the form look pretty!
 
 ### Replacing the text elements
-Replace the "First name" form element and label with the following code:
-```
-<div class="form-group">
-    <label for="first-name">First name</label>
-    <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
-</div>
-```
+Replace the "First name" form element and label with Bootstrap HTML. You'll want to:
+
+1. Add a `<div>` with class `form-group` wrapping the element and label.
+1. Add a proper HTML `<label>` instead of just some text.
+1. Add class `form-control` to the `<input>`
+
 Important things to note:
 
 1. Don't use line breaks (`<br>`), just wrap your label and element together in a `<div>` with Bootstrap class `form-group`
@@ -51,36 +55,17 @@ Important things to note:
 1. Give `<input>` elements the Bootstrap class `form-control`
 1. Give `<input>` elements placeholder text where appropriate
 
-Now repeat this step for the "Last name" form element and label.
+Now do the same for the "Last name" form element
 
 ### Replacing the select element
-Replace the `<select>` element and label with code like this:
-```
-<div class="form-group">
-    <label for="animal-select">Favourite animal</label>
-    <select class="form-control" id="animal-select">
-        <option value="cat">Cat</option>
-        <option value="dog">Dog</option>
-        <option value="jellyfish">Jellyfish</option>
-    </select>
-</div>
-```
+Replace the `<select>` element with Bootstrap HTML.
 
 ### Replacing the textarea element
-Replace the `<textarea>` element and label with code like this:
-```
-<div class="form-group">
-    <label for="favourite-thing">What's your favourite thing about Clint?</label>
-    <textarea class="form-control" rows="10" id="favourite-thing"></textarea>
-</div>
-```
+Replace the `<textarea>` element with Bootstrap HTML.
 
 ### Bootstrap buttons
-Finally, replace the `<input type="submit">` element with a proper HTML5 `<button>`, with the Bootstrap styles:
-
-```
-<button class="btn btn-primary" type="submit">Submit</button>
-```
+Finally, apply some Bootstrap styles to the submit button.
 
 ### Responsive!
-Now go back to the page, and play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. More on this in the next workshop..!
+After you've Bootstrap-ified the page, go back to it play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. More on this in the next workshop..!
+>>>>>>> Stashed changes
