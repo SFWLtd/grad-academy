@@ -30,9 +30,9 @@ As we're using webpack (running on node) for these tutorials, we can use the nod
 Now that it's installed, time to actually use it:
 
 1. Open "src\js\main.js", and add the following three lines:
-  1. `require('./node_modules/slick-carousel/slick/slick.js');`
-  1. `require('./node_modules/slick-carousel/slick/slick.css');`
-  1. `require('./node_modules/slick-carousel/slick/slick-theme.css');`
+  1. `require('slick-carousel');`
+  1. `require('slick-carousel/slick/slick.css');`
+  1. `require('slick-carousel/slick/slick-theme.css');`
 1. Now open site.js. We want to call the method `.slick()` on our div with class `image-wrapper`, after the page has finished loading. To do this:
   1. Use jQuery's shorthand of `$(function() { });` to define a function that will run after the document is ready
   1. Add `$('.image-wrapper').slick();` inside this function

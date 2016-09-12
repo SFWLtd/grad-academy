@@ -32,4 +32,5 @@ Clint has a few more requirements:
   1. Make the button change to a different flat background color on hover
   1. Have the background color change happen gradually
   1. Have the cursor become a hand (`pointer`) when hovered over
+  1. Stop the button from changing width when the text changes
   1. Make any other changes you want
