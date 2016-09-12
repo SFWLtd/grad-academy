@@ -21,7 +21,6 @@ On a more traditional site, you would probably just download the Bootstrap compo
 
 As we're using webpack (running on node) for these tutorials, we can use the node package manager (npm) to make life easier. To install Bootstrap:
 
-<<<<<<< Updated upstream
 * Open command prompt
 * Kill the app (ctrl+c)
 * `npm install Bootstrap`
@@ -68,4 +67,3 @@ Finally, apply some Bootstrap styles to the submit button.
 
 ### Responsive!
 After you've Bootstrap-ified the page, go back to it play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. More on this in the next workshop..!
->>>>>>> Stashed changes
