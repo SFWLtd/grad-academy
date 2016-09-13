@@ -11,29 +11,36 @@
     <h1 class="top-header">Clint's form</h1>
     <div class="container">
         <form>
-            <div class="form-group">
-                <label for="first-name">First name</label>
-                <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="animal-select">Favourite animal</label>
+                        <select class="form-control" id="animal-select">
+                            <option value="cat">Cat</option>
+                            <option value="dog">Dog</option>
+                            <option value="jellyfish">Jellyfish</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="favourite-thing">What's your favourite thing about Clint?</label>
+                        <textarea class="form-control" rows="10" id="favourite-thing"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Submit">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="last-name">Last name</label>
-                <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
-            </div>
-            <div class="form-group">
-                <label for="animal-select">Favourite animal</label>
-                <select class="form-control" id="animal-select">
-                    <option value="cat">Cat</option>
-                    <option value="dog">Dog</option>
-                    <option value="jellyfish">Jellyfish</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="favourite-thing">What's your favourite thing about Clint?</label>
-                <textarea class="form-control" rows="10" id="favourite-thing"></textarea>
-            </div>
-            <button class="btn btn-primary" type="submit">Submit</button>
         </form>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>

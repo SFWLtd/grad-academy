@@ -1,6 +1,6 @@
-#Front-end workshop 10 (More Bootstrap)
+#Front-end workshop 10 (?)
 ## Intro
-More Bootstrap
+?
 ## Initial set-up
 * Open C:\\[grad-academy-repo]\front-end\workshop-10 in Visual Studio Code  
 * Open a command prompt, and run the following commands:
@@ -12,4 +12,4 @@ npm start
 * Browse to http://localhost:5010
 
 ## Workshop tasks
-Todo
+?
