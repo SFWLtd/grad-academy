@@ -65,5 +65,10 @@ Replace the `<textarea>` element with Bootstrap HTML.
 ### Bootstrap buttons
 Finally, apply some Bootstrap styles to the submit button.
 
-### Responsive!
-After you've Bootstrap-ified the page, go back to it play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. More on this in the next workshop..!
+### Grids and columns
+After you've Bootstrap-ified the page, go back to it play around with the browser width. You'll see that Bootstrap is fully responsive, and re-sizes accordingly. Let's take this one step further by adding a Bootstrap grid with columns:
+
+1. Our grid will only have 1 row, so wrap all of the form inputs inside a single `<div>` with class `row`
+1. Split the inputs into two columns. We want it to display as two columns on devices sized `medium` and larger. (Hint: go here for help http://v4-alpha.getbootstrap.com/layout/grid/)
+
+When this is done, you'll find that the page displays in two columns when the browser is wide, but collapses into a single column when narrow. Neat!
