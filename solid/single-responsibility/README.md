@@ -10,10 +10,14 @@ In this project the Permits class is responsible for adding a permit to the list
 In this example the only reason that the Permits class should change is if the method of adding a permit to the data source requires changing, it should not need changing if the email exchange server or method of email sending needs updating. This breaks the single responsibility principle.
 
 To run the project
+
 1. Open the App.Config file and change the "address" application setting
 2. Right click on the *single-responsibility-before* project and choose "Set as Startup Project" 
 3. Press F5, a console window will display the status, you should recieve a very simple email to the address added in the application settings
 
 ### Workshop Task
 1. Modify the project so that modifying the message sending capability is completely independant from the task of adding a permit to the data source
-2. Use the single-responsible-after project if you get stuck :) 
+2. Use the single-responsible-after project if you get stuck :)  
+
+## single-responsibility-after
+This project has the mail sending functionality pulled out into it's own MailSender class. The Permits class Add method is now solely responsible for adding a permit to the data source and delegates the mail sending to the MailSender class.
