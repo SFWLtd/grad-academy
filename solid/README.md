@@ -2,7 +2,7 @@
 
 Five basic principles of object oriented programming and design that should lead developers to creating systems that can be maintained and extended over time.
 
-[Wikipedia summary on SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+SOLID on Wikipedia https://en.wikipedia.org/wiki/SOLID_(object-oriented_design
 
 ##S - Single Responsibility
 Browse to the **single-responsibility** directory for single responsibility principle examples and workshops in C#.
