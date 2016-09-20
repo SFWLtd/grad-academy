@@ -1,6 +1,6 @@
 # Dependency Inversion principle
 
-*Decoupling of software modules
+* Decoupling of software modules
 Not necessarily the same as dependency injection.
 High-level modules should not depend on low-level modules. Both should depend on abstractions.
 Abstractions should not depend upon details. Details should depend upon abstractions.
