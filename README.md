@@ -10,6 +10,6 @@ Browse to the **front-end** directory for workshops on HTML / CSS / JS.
 
 Browse to the **tdd** directory for TDD workshops in C#.
 
-## SOLID
+## SOLID Principles
 
-Browse to the **solid** directory for SOLID examples and workshops in C#.
+Browse to the **solid** directory for SOLID principle examples and workshops in C#.
