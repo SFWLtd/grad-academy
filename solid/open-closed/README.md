@@ -6,7 +6,7 @@ Software entities (classes, modules, functions, etc.) should be open for extensi
 ## open-closed-before
 This project provides a simple example of a Permit cost calculator, it takes a number of permits calculates the cost and outputs the total cost to the screen. There are two permit types, one that's cost is calculated by Quantity * Factor and one by Quantity + Factor.
 
-Looking at the code for the PermitCostCalculator. If in the future there is a requirement of a new permit type that calculates its cost by Quantity – Factor, we will have to add an additional IF statement, this means we are having to modify the PermitCostCalculator class each time a new permit type requires implementing. This is not ideal.
+Looking at the code for the PermitCostCalculator. If in the future there is a requirement to implement a new permit type that calculates its cost by Quantity – Factor, we will have to add an additional IF statement, this means we are having to modify the PermitCostCalculator class each time a new permit type requires implementing. This is not ideal.
 
 ### To run the project
 1. Right click on the *open-closed-before* project and choose "Set as Startup Project" 

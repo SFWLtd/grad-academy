@@ -14,7 +14,7 @@ Square inherits from rectangle as its fair to say in all intents and purposes th
 ### Example two
 In Program.cs a developer creates the method Area which takes a Rectangle sets the height and width and assumes that the result is 20. This is fine if the RectangleBase is a Rectangle but if a Square is passed to the method this is not true.
 
-Is the programmer justified in thinking that changing the width of the rectangle will leave the height unchanged? The Liskov substitution principle highlights these issues and is mainly behaviour driven. A square can be thought of as a Rectangle but a Square is not a rectangle as it’s behaviour is not consistant with that of a Rectangle.
+Is the programmer justified in thinking that changing the width of the rectangle will leave the height unchanged? The Liskov substitution principle highlights these issues and is mainly behaviour driven. A square can be thought of as a Rectangle but a Square is not a rectangle as it’s behaviour is not consistent with that of a Rectangle.
 
 ### To run the project
 1. Right click on the *liskov-substitution* project and choose "Set as Startup Project" 
