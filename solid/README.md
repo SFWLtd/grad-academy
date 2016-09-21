@@ -8,6 +8,8 @@ All of the SOLID examples require Visual Studio 2015. Install the the Github Ext
 
 CONNECTING TO GIT
 
+The Sfw training website hosted in Moodle contains some good material written by Uncle Bob on the Solid principle, http://moodle.sfwltd.co.uk/. 
+
 ##S - Single Responsibility
 Browse to the **single-responsibility** directory for single responsibility principle examples and workshops in C#.
 

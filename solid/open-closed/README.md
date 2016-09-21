@@ -1,9 +1,7 @@
 # Open Closed principle
-
 Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 * Regression should be small factor, changing a single class should not require regression of an entire system
 * Entity doesn't have to be changed each time a requirement changes
-
 
 ## open-closed-before
 This project provides a simple example of a Permit cost calculator, it takes a number of permits calculates the cost and outputs the total cost to the screen. There are two permit types, one that's cost is calculated by Quantity * Factor and one by Quantity + Factor.
