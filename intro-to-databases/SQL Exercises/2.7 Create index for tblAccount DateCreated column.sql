@@ -1,6 +1,6 @@
 USE ExerciseDB;
 
-CREATE NONCLUSTERED INDEX IX_tblAcount_DateCreated ON tblAccount
+CREATE NONCLUSTERED INDEX IX_tblAccount_DateCreated ON tblAccount
 (
 	DateCreated ASC
 );

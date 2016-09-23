@@ -1,11 +1,11 @@
 USE ExerciseDB;
 
-CREATE NONCLUSTERED INDEX IX_tblAcount_AccountTypeID ON tblAccount
+CREATE NONCLUSTERED INDEX IX_tblAccount_AccountTypeID ON tblAccount
 (
 	AccountTypeID ASC
 );
 
-CREATE NONCLUSTERED INDEX IX_tblAcount_AccountHolderID ON tblAccount
+CREATE NONCLUSTERED INDEX IX_tblAccount_AccountHolderID ON tblAccount
 (
 	AccountHolderID ASC
 );
