@@ -1,0 +1,12 @@
+USE ExerciseDB;
+GO
+
+CREATE FUNCTION udfFullName 
+ (@Name NVARCHAR(250),
+  @Surname NVARCHAR(250))
+RETURNS NVARCHAR(502)
+BEGIN
+  RETURN @Surname + ', ' + @Name;
+END
+
+GO
