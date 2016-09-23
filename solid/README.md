@@ -2,13 +2,24 @@
 
 Five basic principles of object oriented programming and design that should lead developers to creating systems that can be maintained and extended over time.
 
-SOLID on Wikipedia https://en.wikipedia.org/wiki/SOLID_(object-oriented_design
+## Additional materials
 
-All of the SOLID examples require Visual Studio 2015. Install the the Github Extension for Visual Studio from Tools->Extensions and Updates
+SOLID on Wikipedia https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 
-CONNECTING TO GIT
+The SFW training website hosted in Moodle contains some good material written by Uncle Bob on the Solid principle, http://moodle.sfwltd.co.uk/. 
 
-The Sfw training website hosted in Moodle contains some good material written by Uncle Bob on the Solid principle, http://moodle.sfwltd.co.uk/. 
+## Requirements
+* Visual Studio 2015
+* Github Extension for Visual Studio (can be installed within Visual Studio by navigating to Tools->Extensions and Updates)
+
+## Connecting to Github
+* Within Visual Studio, open the Team Explorer window (View -> Team Explorer)
+* Click on the Manage Connections icon
+* Click Sign in on the GitHub tab and specify your credentials
+* Click on Clone and select the grad-academy repository
+* Click on the Home icon
+* Select solid.sln in the list of solutions
+* Open the Solution Explorer window (View -> Solution Explorer) which should now contain the projects for the solid session
 
 ##S - Single Responsibility
 Browse to the **single-responsibility** directory for single responsibility principle examples and workshops in C#.

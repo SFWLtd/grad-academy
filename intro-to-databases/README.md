@@ -43,8 +43,7 @@
    * Account type
    * Allows overdraft
    * Minimum deposit
-5. Add an Account type ID column to the account holder table and make is a foreign key, referencing the primary key of account type table from the account holder table
-6. Create an account table with the following columns:
+4. Create an account table with the following columns:
    * Account ID (primary key)
    * Account number
    * Balance
@@ -52,15 +51,15 @@
    * Date created
    * Account type ID (foreign key pointing to the ID of the account type table)
    * Account holder ID (foreign key pointing to the ID of the account holder table)
-7. Insert data into the tables and perform joins to retrieve them
-8. Create indexes on
+5. Insert data into the tables and perform joins to retrieve them
+6. Create indexes on
    * Foreign key columns
    * DateCreated column of the account table since we use a query which sorts on that column
    * Show the differences between execution plans with the presence and absence of indexes 
-9. Discuss about the limitation of the current design
+7. Discuss about the limitation of the current design
    * Only allows one account holder per account
    * How can this be changed?
-10. Transactions
+8. Transactions
    * Transfer amount between two accounts
    * Both balances must be updated before commit
 
@@ -69,4 +68,4 @@
 1. Create a view to retrieve information as in exercise 2
 2. Create a stored procedure to transfer amount as in exercise 2
 3. Create a function to merge first name and surname
-4. Create a trigger to enforce that balance must be greater or equal to minimum deposit when creating an account.
+4. Create a trigger to enforce that an account balance must be greater or equal to the minimum deposit on insertion
