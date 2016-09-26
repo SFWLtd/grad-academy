@@ -14,7 +14,7 @@ npm start
 ## Workshop tasks
 Using plain JavaScript to manipulate the HTML and DOM elements is somewhat clunky, and can get very messy very quickly. To make our lives easier, we can use jQuery. jQuery has already been installed into this project, so we can start using it straight away. Let's replace the JavaScript we wrote in the previous workshop with some neater jQuery:
 
-1. Look up jQuery's `$('.className')`, `.each()`, and `.toggle()` functions. You should be able to replace the entire contents of the method with a line just 21 characters long
+1. Look up jQuery's `$('.className')` and `.toggle()` functions. You should be able to replace the entire contents of the method with a line just 21 characters long. Note: you don't need to use `each()`!
 
 Clint has a few more requirements:
 
