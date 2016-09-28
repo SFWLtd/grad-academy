@@ -6,7 +6,7 @@ Five basic principles of object oriented programming and design that should lead
 
 SOLID on Wikipedia https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
 
-The SFW training website hosted in Moodle contains some good material written by Uncle Bob on the Solid principle, http://moodle.sfwltd.co.uk/. 
+The SFW training website hosted in Moodle contains some good material written by Uncle Bob on SOLID principles and clean code, http://moodle.sfwltd.co.uk/course/view.php?id=4. 
 
 ## Requirements
 * Visual Studio 2015
@@ -36,3 +36,5 @@ Browse to the **interface-segregation** directory for interface segregation prin
 ##D - Dependency Inversion
 Browse to the **dependency-inversion** directory for dependency inversion principle examples and workshops in C#.
 
+## Exercise
+Browse to the **exercise** directory for an example of an application using some of the above principles. 
