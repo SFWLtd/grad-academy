@@ -23,12 +23,12 @@ namespace BadCodeExample
 
         public void AddRecurringPayment(Payment recurringPayment)
         {
-            throw new InvalidOperationException("Recurring payments are not supported a savings account");
+            throw new InvalidOperationException("Recurring payments are not supported for a savings account");
         }
 
         public List<Payment> GetRecurringPayments()
         {
-            throw new InvalidOperationException("Recurring payments are not supported a savings account");
+            throw new InvalidOperationException("Recurring payments are not supported for a savings account");
         }
 
         public void Deposit(decimal amount)

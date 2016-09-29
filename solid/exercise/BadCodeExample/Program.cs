@@ -31,7 +31,7 @@ namespace BadCodeExample
             var savingsAccount = new SavingsAccount(111, 100);
             var currentAccount = new CurrentAccount(222, 20);
 
-            currentAccount.AddRecurringPayment(new Payment(currentAccount, "Monthly savings", 10));
+            currentAccount.AddRecurringPayment(new Payment(savingsAccount, "Monthly savings", 10));
 
             var accounts = new List<IAccount>() { savingsAccount, currentAccount };
 

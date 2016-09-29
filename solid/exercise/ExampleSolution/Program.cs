@@ -35,7 +35,7 @@ namespace ExampleSolution
             var savingsAccount = new SavingsAccount(111, 100);
             var currentAccount = new CurrentAccount(222, 20);
 
-            currentAccount.AddRecurringPayment(new Payment(currentAccount, "Monthly savings", 10));
+            currentAccount.AddRecurringPayment(new Payment(savingsAccount, "Monthly savings", 10));
 
             // Savings account no longer allowed in the list as it's not an IPaymentAccount
             var paymentAccounts = new List<IPaymentAccount>() { currentAccount };
