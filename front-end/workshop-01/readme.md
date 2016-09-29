@@ -2,7 +2,7 @@
 ## Intro
 A client appropriately called "Clint" has requested that you make some changes to his existing HTML web page.
 ## Initial set-up
-* Install node?  
+* Install Node JS (https://nodejs.org/en/) and Git (https://git-scm.com/download/win) if not already done
 * Clone grad academy repo from github  
 * Open C:\\[grad-academy-repo]\front-end\workshop-01 in Visual Studio Code  
 * Open a command prompt, and run the following commands:
